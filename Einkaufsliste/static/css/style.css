@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+h1 {
+    border: 3px #b40000 solid;
+    color: rgb(300, 125, 113);
+    text-align: center;
+    padding: 10px;
+
+}
+
+th { 
+    padding: 5px
+}
+
+tr{
+    border: 3px #b40000 solid;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+div{
+text-align: center; 
+width: 100%;
+   
+}
