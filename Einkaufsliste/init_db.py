@@ -1,20 +1,15 @@
 import sqlite3 
  
 connection = sqlite3.connect('database.db') 
-with open('schema.sql') as file: 
-    connection.executescript(file.read()) 
- 
-
 cur = connection.cursor() 
-
  
-cur.execute("INSERT INTO einkaufsliste (name, anzahl, gekauft) VALUES ('Bananen', '6', 'ja');") 
+cur.execute("INSERT INTO einkaufsliste (name, anzahl) VALUES ('Bananen', '6');") 
+cur.execute("SELECT name, anzahl FROM einkaufsliste;")
 
 rows = cur.fetchall()
 
-for row in rows:  
-
-   print(row) 
-
 connection.commit() 
 connection.close() 
+
+for row in rows:  
+    print(row) 
