@@ -1,0 +1,20 @@
+import random
+
+mylist = ["Du hast eine tolle Ausstrahlung", "Du bist ein tolles Vorbild für andere", "Ich bin stolz auf dich!", "Du bist ein ganz besonderer Mensch", "Mit dir macht alles mehr Spaß", "Ich liebe deinen Humor", "Ich bewundere deinen Biss und deinen Ehrgeiz", "Bei dir fühle ich mich wohl", "Ich bewundere deinen Mut", "Du bist ein sehr starker Mensch"]
+
+print(random.choice(mylist))
+
+import cowsay
+
+my_fish = r'''
+\
+ \  
+        /`·.¸
+     /¸...¸`:·
+ ¸.·´  ¸   `·.¸.·´)
+: © ):´;      ¸  {
+ `·.¸ `·  ¸.·´\`·¸)
+     `\\´´\¸.·´
+'''s
+
+cowsay.draw('Sharks are my best friend', my_fish)
