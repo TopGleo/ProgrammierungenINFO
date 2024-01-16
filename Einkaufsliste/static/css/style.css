@@ -1,4 +1,10 @@
+head {
+    border: 3px #00b487 solid;
+    color: rgb(300, 125, 113);
+    text-align: center;
+    padding: 15px;
 
+}
 
 
 
@@ -6,7 +12,7 @@
 
 
 h1 {
-    border: 3px #b40000 solid;
+    border: 3px #00b487 solid;
     color: rgb(300, 125, 113);
     text-align: center;
     padding: 10px;
@@ -14,7 +20,7 @@ h1 {
 }
 
 th { 
-    padding: 5px
+    padding: 10px
 }
 
 tr{
